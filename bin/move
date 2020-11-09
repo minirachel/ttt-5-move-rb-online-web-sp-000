@@ -2,4 +2,5 @@
 
 require_relative '../lib/move.rb'
 
-# Code your CLI Here
+user_input = gets.strip
+input_to_index(user_input)
